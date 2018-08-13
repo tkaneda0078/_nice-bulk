@@ -3,15 +3,14 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
+/.idea
 *.iml
 out
 gen### Example user template template
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
+/*.iml
 out
 gen### Node template
 # Logs
@@ -49,7 +48,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+/node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -87,4 +86,4 @@ typings/
 
 # Serverless directories
 .serverless
-
+/bin/
