@@ -4,5 +4,5 @@ block content
   h1= title
   p Welcome to #{title}
   form(action='/recognition_decision', method='POST', enctype='multipart/form-data')
-    input(type='file', name='image-model', value='')
+    input(type='file', name='image_model')
     input(type='submit', value='upload')
